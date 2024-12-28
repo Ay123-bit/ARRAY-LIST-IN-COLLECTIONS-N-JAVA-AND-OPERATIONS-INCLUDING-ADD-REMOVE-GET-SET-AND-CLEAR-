@@ -1,0 +1,30 @@
+//INPUT
+import java.util.ArrayList;
+class javaCollections{
+    public static void main(String[] args){
+        ArrayList<String> Name=new ArrayList<String>();
+        Name.add("Ankit");
+        Name.add("Ankush");
+        System.out.println(Name);
+        Name.add("Suresh");
+        System.out.println(Name);
+        Name.add(1,"Rohit");
+        System.out.println(Name);
+        Name.remove(3);
+        System.out.println(Name);
+        Name.set(0,"Akhilesh");
+        System.out.println(Name);
+        System.out.println(Name.get(2));
+        Name.clear();
+        System.out.println(Name);
+    }
+}
+//ARRAY LIST IN COLLECTIONS ÍN JAVA AND OPERATIONS INCLUDING ADD, REMOVE, GET, SET AND CLEAR
+//OUTPUT
+[Ankit, Ankush]
+[Ankit, Ankush, Suresh]
+[Ankit, Rohit, Ankush, Suresh]
+[Ankit, Rohit, Ankush]
+[Akhilesh, Rohit, Ankush]
+Ankush
+[]
